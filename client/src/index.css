@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Um reset básico para garantir altura total */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f3f4f6; /* Cinza bem claro */
+}
