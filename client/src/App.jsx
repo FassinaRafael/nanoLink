@@ -1,20 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Toaster } from "sonner"; // <--- Importação Nova
-import Auth from "./pages/Auth";
-import Dashboard from "./pages/Dashboard";
+// src/App.jsx
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Auth from './pages/Auth'
+import Dashboard from './pages/Dashboard'
+import UpdatePassword from './pages/UpdatePassword'
 
-function App() {
+// inicializa cedo (opcional mas recomendado)
+import { initSupabase } from './supabaseClient'
+initSupabase()
+
+export default function App() {
   return (
     <BrowserRouter>
-      {/* O Toaster fica aqui, invisível, esperando comandos */}
-      <Toaster position="top-right" richColors />
-
       <Routes>
         <Route path="/" element={<Auth />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/update-password" element={<UpdatePassword />} />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
-
-export default App;
