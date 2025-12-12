@@ -150,6 +150,6 @@ Para referência rápida, aqui estão todas as variáveis necessárias.
 
 ## 👨‍💻 Autor
 
-Feito com 💜 por **[Rafael Fassina](https://www.linkedin.com/in/rafael-fassina-285316302)**
+Feito por **[Rafael Fassina](https://www.linkedin.com/in/rafael-fassina-285316302)**
 
 Se você gostou deste projeto, não esqueça de dar uma ⭐ no repositório!
