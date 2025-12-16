@@ -21,8 +21,7 @@
 
 ## 📸 Screenshots
 
-![Dashboard](<img width="1598" height="771" alt="image" src="https://github.com/user-attachments/assets/ef3b431c-6ab0-48d5-a4b1-61bf1bc02657" />
-)
+![Dashboard](./client/public/preview.png)
 
 ---
 
